@@ -91,7 +91,7 @@ class FeUserAuthenticationController implements iAuthenticate
     /**
      * @var Restler
      */
-    private $restler;
+    public $restler;
 
     /**
      * @param TYPO3Loader $typo3Loader

@@ -41,7 +41,7 @@ class ExplorerAuthenticationController implements iAuthenticate
     /**
      * @var Restler
      */
-    private $restler;
+    public $restler;
 
     /**
      * initialize controller
